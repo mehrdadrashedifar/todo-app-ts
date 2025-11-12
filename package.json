@@ -1,0 +1,17 @@
+{
+  "name": "todo-list-ts",
+  "version": "1.0.0",
+  "description": "A simple Todo app built with TypeScript and vanilla DOM",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "preview": "npx serve public"
+  },
+  "dependencies": {
+    "typescript": "^5.9.3"
+  }
+}
